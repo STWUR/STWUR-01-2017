@@ -4,11 +4,18 @@ author: Michał Burdukiewicz, Piotr Sobczyk
 date: 25 stycznia 2017
 output:
   revealjs::revealjs_presentation:
+    self_contained: false
     incremental: true
     css: report.css
+    reveal_plugins: ["zoom"]
 ---
 
 # O STWURze
+
+```{r echo=FALSE}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff = 50), tidy=TRUE)
+```
 
 ## Cel
 
@@ -38,4 +45,17 @@ output:
 ## Wyzwania
 
 - Przypisanie zmiennych do kategorii.
+
+# Eksploracja danych
+
+## Rozpoczęcie pracy
+
+```{r eval=FALSE}
+install.packages(c("ggplot2", "dplyr"), repos = "https://cloud.r-project.org/")
+download.file(url = "https://github.com/michbur/Diagnoza_dane/archive/master.zip", 
+              destfile = "diagnoza.zip")
+unzip("diagnoza.zip", exdir = getwd())
+load("./Diagnoza_dane-master/osoby.RData")
+load("./Diagnoza_dane-master/osobyDict.RData")
+```
 

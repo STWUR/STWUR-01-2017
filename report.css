@@ -73,7 +73,10 @@
 	font-weight: 400;
 }
 
-
+code.r{
+  font-size: 1.60em;
+  line-height: 1.2;
+}
 
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img,
