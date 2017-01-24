@@ -32,6 +32,11 @@ opts_chunk$set(tidy.opts=list(width.cutoff = 50), tidy=TRUE)
 
 <img src="img/workplan.png">
 
+## Jak uczestniczyć?
+
+- Brać udział w spotkaniach.
+- Dzielić się swoją wiedzą na grupie.
+
 
 # Diagnoza społeczna
 
@@ -49,6 +54,8 @@ opts_chunk$set(tidy.opts=list(width.cutoff = 50), tidy=TRUE)
 # Eksploracja danych
 
 ## Rozpoczęcie pracy
+
+Kody i prezentacja ze spotkania: https://github.com/michbur/STWUR-01-2017.
 
 ```{r eval=FALSE}
 install.packages(c("ggplot2", "dplyr"), repos = "https://cloud.r-project.org/")
