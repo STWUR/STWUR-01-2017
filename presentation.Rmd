@@ -1,7 +1,4 @@
 ---
-title: "STWUR: eksploracja danych"
-author: Michał Burdukiewicz, Piotr Sobczyk
-date: 25 stycznia 2017
 output:
   revealjs::revealjs_presentation:
     self_contained: false
@@ -10,9 +7,15 @@ output:
     reveal_plugins: ["zoom"]
 ---
 
-# O STWURze
+## {data-background="img/banner.png"} 
 
-<img src="img/banner.png">
+<h1>Eksploracja danych</h1>
+
+<h2>Michał Burdukiewicz, Piotr Sobczyk<h2>
+
+<h3>25 stycznia 2017<h3>
+
+# O STWURze {data-background="img/banner.png"} 
 
 ```{r echo=FALSE}
 library(knitr)
@@ -41,7 +44,7 @@ opts_chunk$set(tidy.opts=list(width.cutoff = 50), tidy=TRUE)
 - Dzielić się swoją wiedzą.
 - Opowiadać znajomym o STWURze
 
-# Diagnoza społeczna
+# Diagnoza społeczna {data-background="img/banner.png"} 
 
 ## O Diagnozie
 
@@ -56,7 +59,7 @@ opts_chunk$set(tidy.opts=list(width.cutoff = 50), tidy=TRUE)
 - Znalezienie podobnych pytań występujących w kolejnych latach
 - Wizualizacja i modelowanie
 
-# Eksploracja danych
+# Eksploracja danych {data-background="img/banner.png"} 
 
 ## Rozpoczęcie pracy
 
@@ -83,3 +86,17 @@ load("./Diagnoza_dane-master/osobyDict.RData")
 * W jakim stopniu zadowolony jest ze stanu bezpieczeń (*fp63_16*)
 * zauf.sądów (*fp98_11*)
 * słuchanie muzyki lub radia przez internet (*fp12818*)
+
+# Podsumowanie {data-background="img/banner.png"} 
+
+## Sponsorzy
+
+* Doktoranckie Koło Naukowe Bioinformatyki,
+* Uniwersytet Wrocławski,
+* Krajowy Naukowy Ośrodek Wiodący Wrocławskie Centrum Biotechnologii.
+
+## Ważne informacje
+
+Kody: http://tinyurl.com/stwur01
+
+Ankieta: http://tinyurl.com/stwur-ankieta
