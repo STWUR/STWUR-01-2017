@@ -97,6 +97,11 @@ load("./Diagnoza_dane-master/osobyDict.RData")
 
 ## Ważne informacje
 
-Kody: http://tinyurl.com/stwur01
+<h3>Kody: http://tinyurl.com/stwur01 </h3>
 
-Ankieta: http://tinyurl.com/stwur-ankieta
+<h3> Ankieta: http://tinyurl.com/stwur-ankieta </h3>
+
+<h3> Wyniki (zamiennie): </h3>
+
+* fork repozytorium https://github.com/michbur/STWUR-01-2017 do katalogu **results**,
+* wysłać na kontakt@stwur.pl
