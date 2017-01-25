@@ -109,6 +109,14 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
     <script src="presentation_files/reveal.js-3.3.0/lib/js/html5shiv.js"></script>
     <![endif]-->
 
+    <script src="presentation_files/htmlwidgets-0.8/htmlwidgets.js"></script>
+    <script src="presentation_files/d3-3.3.8/d3.min.js"></script>
+    <script src="presentation_files/dagre-0.4.0/dagre-d3.min.js"></script>
+    <link href="presentation_files/mermaid-0.3.0/dist/mermaid.css" rel="stylesheet" />
+    <script src="presentation_files/mermaid-0.3.0/dist/mermaid.slim.min.js"></script>
+    <link href="presentation_files/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+    <script src="presentation_files/chromatography-0.1/chromatography.js"></script>
+    <script src="presentation_files/DiagrammeR-binding-0.9.1/DiagrammeR.js"></script>
 </head>
 <body>
   <div class="reveal">
@@ -166,6 +174,19 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <span class="kw">unzip</span>(<span class="st">&quot;diagnoza.zip&quot;</span>, <span class="dt">exdir =</span> <span class="kw">getwd</span>())
 <span class="kw">load</span>(<span class="st">&quot;./Diagnoza_dane-master/osoby.RData&quot;</span>)
 <span class="kw">load</span>(<span class="st">&quot;./Diagnoza_dane-master/osobyDict.RData&quot;</span>)</code></pre></div>
+</section><section id="co-chcemy-zrobic-z-danymi" class="slide level2">
+<h1>Co chcemy zrobić z danymi?</h1>
+<div id="htmlwidget-7a07349d1afc21046069" style="width:1152px;height:576px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7a07349d1afc21046069">{"x":{"diagram":"\ngraph LR;\nA(Surowe dane)-->B[Dane wczytane do R] \nB-->C{Przetworzenie danych}\nC-->D{Wizualizacja}\nC-->E{Modelowanie};\nstyle A fill:#E5E25F; \nstyle D fill:#B6E6E6;\nstyle E fill:#B6E6E6;\n"},"evals":[],"jsHooks":[]}</script>
+</section><section id="przykady-ciekawych-zmiennych-w-badaniu-diagnozy" class="slide level2">
+<h1>Przykłady ciekawych zmiennych w badaniu diagnozy:</h1>
+<ul>
+<li class="fragment">Co jest według Pana ważniejsze w życiu? (<em>fp29</em>)</li>
+<li class="fragment">Czy czuje się Pan osamotniony, mimo że tego nie chce? (<em>fp42</em>)</li>
+<li class="fragment">W jakim stopniu zadowolony jest ze stanu bezpieczeń (<em>fp63_16</em>)</li>
+<li class="fragment">zauf.sądów (<em>fp98_11</em>)</li>
+<li class="fragment">słuchanie muzyki lub radia przez internet (<em>fp12818</em>)</li>
+</ul>
 </section></section>
     </div>
   </div>
