@@ -69,7 +69,7 @@ load("./Diagnoza_dane-master/osobyDict.RData")
 
 ## Co chcemy zrobić z danymi?
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, message=FALSE, fig.width=12}
 require(DiagrammeR)
 mermaid("
 graph LR;
@@ -82,3 +82,11 @@ style D fill:#B6E6E6;
 style E fill:#B6E6E6;
 ")
 ```
+
+## Przykłady ciekawych zmiennych w badaniu diagnozy:
+
+* Co jest według Pana ważniejsze w życiu? (*fp29*)
+* Czy czuje się Pan osamotniony, mimo że tego nie chce? (*fp42*)
+* W jakim stopniu zadowolony jest ze stanu bezpieczeń (*fp63_16*)
+* zauf.sądów (*fp98_11*)
+* słuchanie muzyki lub radia przez internet (*fp12818*)
