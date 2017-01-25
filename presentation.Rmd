@@ -35,7 +35,7 @@ opts_chunk$set(tidy.opts=list(width.cutoff = 50), tidy=TRUE)
 ## Jak uczestniczyć?
 
 - Brać udział w spotkaniach.
-- Dzielić się swoją wiedzą na grupie.
+- Dzielić się swoją wiedzą.
 
 
 # Diagnoza społeczna
@@ -55,7 +55,7 @@ opts_chunk$set(tidy.opts=list(width.cutoff = 50), tidy=TRUE)
 
 ## Rozpoczęcie pracy
 
-Kody i prezentacja ze spotkania: https://github.com/michbur/STWUR-01-2017.
+Kody: http://tinyurl.com/stwur01
 
 ```{r eval=FALSE}
 install.packages(c("ggplot2", "dplyr"), repos = "https://cloud.r-project.org/")
@@ -77,7 +77,7 @@ A(Surowe dane)-->B[Dane wczytane do R]
 B-->C{Przetworzenie danych}
 C-->D{Wizualizacja}
 C-->E{Modelowanie};
-style A fill:#E5E25F; 
+style A fill:#E5E25F;
 style D fill:#B6E6E6;
 style E fill:#B6E6E6;
 ")
