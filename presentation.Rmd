@@ -59,3 +59,19 @@ load("./Diagnoza_dane-master/osoby.RData")
 load("./Diagnoza_dane-master/osobyDict.RData")
 ```
 
+
+## Co chcemy zrobić z danymi?
+
+```{r, echo=FALSE}
+require(DiagrammeR)
+mermaid("
+graph LR;
+A(Surowe dane)-->B[Dane wczytane do R] 
+B-->C{Przetworzenie danych}
+C-->D{Wizualizacja}
+C-->E{Modelowanie};
+style A fill:#E5E25F; 
+style D fill:#B6E6E6;
+style E fill:#B6E6E6;
+")
+```
