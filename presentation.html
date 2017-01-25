@@ -116,7 +116,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
     <script src="presentation_files/mermaid-0.3.0/dist/mermaid.slim.min.js"></script>
     <link href="presentation_files/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
     <script src="presentation_files/chromatography-0.1/chromatography.js"></script>
-    <script src="presentation_files/DiagrammeR-binding-0.9.1/DiagrammeR.js"></script>
+    <script src="presentation_files/DiagrammeR-binding-0.8.4/DiagrammeR.js"></script>
 </head>
 <body>
   <div class="reveal">
@@ -148,7 +148,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <h1>Jak uczestniczyć?</h1>
 <ul>
 <li class="fragment">Brać udział w spotkaniach.</li>
-<li class="fragment">Dzielić się swoją wiedzą na grupie.</li>
+<li class="fragment">Dzielić się swoją wiedzą.</li>
 </ul>
 </section></section>
 <section><section id="diagnoza-spoeczna" class="titleslide slide level1"><h1>Diagnoza społeczna</h1></section><section id="o-diagnozie" class="slide level2">
@@ -167,7 +167,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </section></section>
 <section><section id="eksploracja-danych" class="titleslide slide level1"><h1>Eksploracja danych</h1></section><section id="rozpoczecie-pracy" class="slide level2">
 <h1>Rozpoczęcie pracy</h1>
-<p>Kody i prezentacja ze spotkania: <a href="https://github.com/michbur/STWUR-01-2017" class="uri">https://github.com/michbur/STWUR-01-2017</a>.</p>
+<p>Kody: <a href="http://tinyurl.com/stwur01" class="uri">http://tinyurl.com/stwur01</a></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="kw">c</span>(<span class="st">&quot;ggplot2&quot;</span>, <span class="st">&quot;dplyr&quot;</span>), <span class="dt">repos =</span> <span class="st">&quot;https://cloud.r-project.org/&quot;</span>)
 <span class="kw">download.file</span>(<span class="dt">url =</span> <span class="st">&quot;https://github.com/michbur/Diagnoza_dane/archive/master.zip&quot;</span>, 
     <span class="dt">destfile =</span> <span class="st">&quot;diagnoza.zip&quot;</span>)
@@ -176,17 +176,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <span class="kw">load</span>(<span class="st">&quot;./Diagnoza_dane-master/osobyDict.RData&quot;</span>)</code></pre></div>
 </section><section id="co-chcemy-zrobic-z-danymi" class="slide level2">
 <h1>Co chcemy zrobić z danymi?</h1>
-<div id="htmlwidget-7a07349d1afc21046069" style="width:1152px;height:576px;" class="DiagrammeR html-widget"></div>
-<script type="application/json" data-for="htmlwidget-7a07349d1afc21046069">{"x":{"diagram":"\ngraph LR;\nA(Surowe dane)-->B[Dane wczytane do R] \nB-->C{Przetworzenie danych}\nC-->D{Wizualizacja}\nC-->E{Modelowanie};\nstyle A fill:#E5E25F; \nstyle D fill:#B6E6E6;\nstyle E fill:#B6E6E6;\n"},"evals":[],"jsHooks":[]}</script>
-</section><section id="przykady-ciekawych-zmiennych-w-badaniu-diagnozy" class="slide level2">
-<h1>Przykłady ciekawych zmiennych w badaniu diagnozy:</h1>
-<ul>
-<li class="fragment">Co jest według Pana ważniejsze w życiu? (<em>fp29</em>)</li>
-<li class="fragment">Czy czuje się Pan osamotniony, mimo że tego nie chce? (<em>fp42</em>)</li>
-<li class="fragment">W jakim stopniu zadowolony jest ze stanu bezpieczeń (<em>fp63_16</em>)</li>
-<li class="fragment">zauf.sądów (<em>fp98_11</em>)</li>
-<li class="fragment">słuchanie muzyki lub radia przez internet (<em>fp12818</em>)</li>
-</ul>
+<div id="htmlwidget-b4bb4b218902d0d35db7" style="width:768px;height:576px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b4bb4b218902d0d35db7">{"x":{"diagram":"\ngraph LR;\nA(Surowe dane)-->B[Dane wczytane do R] \nB-->C{Przetworzenie danych}\nC-->D{Wizualizacja}\nC-->E{Modelowanie};\nstyle A fill:#E5E25F;\nstyle D fill:#B6E6E6;\nstyle E fill:#B6E6E6;\n"},"evals":[],"jsHooks":[]}</script>
 </section></section>
     </div>
   </div>
