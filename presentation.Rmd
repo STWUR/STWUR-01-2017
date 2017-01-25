@@ -12,6 +12,8 @@ output:
 
 # O STWURze
 
+<img src="img/banner.png">
+
 ```{r echo=FALSE}
 library(knitr)
 opts_chunk$set(tidy.opts=list(width.cutoff = 50), tidy=TRUE)
@@ -19,8 +21,9 @@ opts_chunk$set(tidy.opts=list(width.cutoff = 50), tidy=TRUE)
 
 ## Cel
 
-- Poznać lepiej różnice między Wrocławiem/Dolnym Śląskiem i innymi regionami Polski.
-- Z każdego spotkania wyjść wiedząc przynajmniej jedną użyteczną rzecz więcej.
+- Stworzenie społeczności użytkowników R we Wrocławiu/na Dolnym Śląsku.
+- Rozpowszechnianie znajomości eRa, poszerzanie programistycznych (i nie tylko) horyzontów
+- Poznawanie Wrocławia, Dolnego Śląska i Polski od strony danych
 
 ## Forma spotkań
 
@@ -36,7 +39,7 @@ opts_chunk$set(tidy.opts=list(width.cutoff = 50), tidy=TRUE)
 
 - Brać udział w spotkaniach.
 - Dzielić się swoją wiedzą.
-
+- Opowiadać znajomym o STWURze
 
 # Diagnoza społeczna
 
@@ -49,7 +52,9 @@ opts_chunk$set(tidy.opts=list(width.cutoff = 50), tidy=TRUE)
 
 ## Wyzwania
 
-- Przypisanie zmiennych do kategorii.
+- Kategoryzacja zmiennych
+- Znalezienie podobnych pytań występujących w kolejnych latach
+- Wizualizacja i modelowanie
 
 # Eksploracja danych
 
@@ -67,21 +72,9 @@ load("./Diagnoza_dane-master/osobyDict.RData")
 ```
 
 
-## Co chcemy zrobić z danymi?
+## Jak wydobyć informacje z danych?
 
-```{r, echo=FALSE, message=FALSE, fig.width=12}
-require(DiagrammeR)
-mermaid("
-graph LR;
-A(Surowe dane)-->B[Dane wczytane do R] 
-B-->C{Przetworzenie danych}
-C-->D{Wizualizacja}
-C-->E{Modelowanie};
-style A fill:#E5E25F;
-style D fill:#B6E6E6;
-style E fill:#B6E6E6;
-")
-```
+<img src="img/schemat_przetwarzanie_danych.png">
 
 ## Przykłady ciekawych zmiennych w badaniu diagnozy:
 

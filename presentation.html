@@ -109,14 +109,6 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
     <script src="presentation_files/reveal.js-3.3.0/lib/js/html5shiv.js"></script>
     <![endif]-->
 
-    <script src="presentation_files/htmlwidgets-0.8/htmlwidgets.js"></script>
-    <script src="presentation_files/d3-3.3.8/d3.min.js"></script>
-    <script src="presentation_files/dagre-0.4.0/dagre-d3.min.js"></script>
-    <link href="presentation_files/mermaid-0.3.0/dist/mermaid.css" rel="stylesheet" />
-    <script src="presentation_files/mermaid-0.3.0/dist/mermaid.slim.min.js"></script>
-    <link href="presentation_files/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
-    <script src="presentation_files/chromatography-0.1/chromatography.js"></script>
-    <script src="presentation_files/DiagrammeR-binding-0.9.1/DiagrammeR.js"></script>
 </head>
 <body>
   <div class="reveal">
@@ -131,8 +123,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <section><section id="o-stwurze" class="titleslide slide level1"><h1>O STWURze</h1></section><section id="cel" class="slide level2">
 <h1>Cel</h1>
 <ul>
-<li class="fragment">Poznać lepiej różnice między Wrocławiem/Dolnym Śląskiem i innymi regionami Polski.</li>
-<li class="fragment">Z każdego spotkania wyjść wiedząc przynajmniej jedną użyteczną rzecz więcej.</li>
+<li class="fragment">Stworzenie społeczności użytkowników R we Wrocławiu/na Dolnym Śląsku.</li>
+<li class="fragment">Rozpowszechnianie znajomości eRa, poszerzanie programistycznych (i nie tylko) horyzontów</li>
+<li class="fragment">Poznawanie Wrocławia, Dolnego Śląska i Polski od strony danych</li>
 </ul>
 </section><section id="forma-spotkan" class="slide level2">
 <h1>Forma spotkań</h1>
@@ -149,6 +142,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <ul>
 <li class="fragment">Brać udział w spotkaniach.</li>
 <li class="fragment">Dzielić się swoją wiedzą.</li>
+<li class="fragment">Opowiadać znajomym o STWURze</li>
 </ul>
 </section></section>
 <section><section id="diagnoza-spoeczna" class="titleslide slide level1"><h1>Diagnoza społeczna</h1></section><section id="o-diagnozie" class="slide level2">
@@ -162,7 +156,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </section><section id="wyzwania" class="slide level2">
 <h1>Wyzwania</h1>
 <ul>
-<li class="fragment">Przypisanie zmiennych do kategorii.</li>
+<li class="fragment">Kategoryzacja zmiennych</li>
+<li class="fragment">Znalezienie podobnych pytań występujących w kolejnych latach</li>
+<li class="fragment">Wizualizacja i modelowanie</li>
 </ul>
 </section></section>
 <section><section id="eksploracja-danych" class="titleslide slide level1"><h1>Eksploracja danych</h1></section><section id="rozpoczecie-pracy" class="slide level2">
@@ -174,10 +170,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <span class="kw">unzip</span>(<span class="st">&quot;diagnoza.zip&quot;</span>, <span class="dt">exdir =</span> <span class="kw">getwd</span>())
 <span class="kw">load</span>(<span class="st">&quot;./Diagnoza_dane-master/osoby.RData&quot;</span>)
 <span class="kw">load</span>(<span class="st">&quot;./Diagnoza_dane-master/osobyDict.RData&quot;</span>)</code></pre></div>
-</section><section id="co-chcemy-zrobic-z-danymi" class="slide level2">
-<h1>Co chcemy zrobić z danymi?</h1>
-<div id="htmlwidget-69d806ce3f9ec09795f6" style="width:1152px;height:576px;" class="DiagrammeR html-widget"></div>
-<script type="application/json" data-for="htmlwidget-69d806ce3f9ec09795f6">{"x":{"diagram":"\ngraph LR;\nA(Surowe dane)-->B[Dane wczytane do R] \nB-->C{Przetworzenie danych}\nC-->D{Wizualizacja}\nC-->E{Modelowanie};\nstyle A fill:#E5E25F;\nstyle D fill:#B6E6E6;\nstyle E fill:#B6E6E6;\n"},"evals":[],"jsHooks":[]}</script>
+</section><section id="jak-wydobyc-informacje-z-danych" class="slide level2">
+<h1>Jak wydobyć informacje z danych?</h1>
+<p><img src="img/schemat_przetwarzanie_danych.png"></p>
 </section><section id="przykady-ciekawych-zmiennych-w-badaniu-diagnozy" class="slide level2">
 <h1>Przykłady ciekawych zmiennych w badaniu diagnozy:</h1>
 <ul>
